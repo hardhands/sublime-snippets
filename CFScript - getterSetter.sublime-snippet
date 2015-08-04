@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+private any function _get${1:var}() {
+	return _${1:var};
+}
+private void function _set${1:var}(required any ${1:var}) {
+	_${1:var} = arguments.${1:var};
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getset</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cfscript - string - meta</scope>
+</snippet>
